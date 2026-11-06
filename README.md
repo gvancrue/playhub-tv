@@ -6,4 +6,4 @@ Para instalar PlayHub en tu TV LG rooteado:
 2. Escribe: `https://gvancrue.github.io/playhub-tv/apps.json`
 3. Vuelve a la lista de apps, busca **PlayHub** e instálalo.
 
-Versión actual: **1.4.2**
+Versión actual: **1.4.3**
