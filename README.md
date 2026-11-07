@@ -62,7 +62,7 @@ To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine;
 - **Want to wake the PC from the TV?** Enable Wake-on-LAN in your BIOS and network adapter, and keep the PC on a cable.
 - **Something's off?** On the TV go to **Controllers → Diagnostics**. It shows the whole picture, including the service log. A photo of that screen says almost everything.
 
-## Bluetooth for Old webOS (beta) · v0.3.4
+## Bluetooth for Old webOS (beta) · v0.3.5
 
 A separate, standalone app (it doesn't need PlayHub) for everything Bluetooth on old webOS TVs. Made on webOS 4.5. Install it from the same Homebrew Channel repository.
 
@@ -79,6 +79,7 @@ A separate, standalone app (it doesn't need PlayHub) for everything Bluetooth on
 - **Notifications** when anything Bluetooth connects or disconnects.
 
 **Your controller as a TV remote:** move around the TV menus, your launcher, Netflix, YouTube… with the D-pad or stick (A = OK, B = Back, Guide = Home; hold A for a long press, like YouTube's video menu). It steps aside by itself in Moonlight, PlayHub and RetroArch, which read the controller directly. It learns your LG remote's exact buttons by itself: just use the app once with the LG remote. You can turn it off in Settings.
+- **Use your own launcher** (like Hearth): in Settings → **Guide button opens**, pick any installed app, and the controller's Guide button opens it instead of LG's home screen. Optional: **Hold B to go home** (a quick press is still Back). If you also remap the LG remote's Home button with [LG Input Hook](https://github.com/webosbrew/lginputhook), both remotes take you to the same place.
 
 **Also**
 - **Replaces the old "Gamepads" app** ([webos-gamepad](https://github.com/Superd22/webos-gamepad)): it fixes controller permissions so Moonlight, RetroArch and other apps can read them, and cleans up stale controller entries at startup. You can uninstall Gamepads.
