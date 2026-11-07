@@ -1,10 +1,10 @@
-# PlayHub — your PC games on your LG TV, Apple TV style
+# Arcade — your PC games on your LG TV, Apple TV style
 
-> **Heads up:** this is a personal project, vibe coded for my own living room (an LG TV on webOS 4.5 + a Windows gaming PC). It works great for me. If it works for you too, enjoy! It's free, no support promised. The name **PlayHub** is temporary and will change soon.
+> **Heads up:** this is a personal project, vibe coded for my own living room (an LG TV on webOS 4.5 + a Windows gaming PC). It works great for me. If it works for you too, enjoy! It's free, no support promised. **Arcade** was called **PlayHub** until v1.7.4. Same app: if you had PlayHub installed, it just updates and keeps everything. The PC side still uses the old name in its files (`PlayHub.ps1`, `PlayHub-PC.zip`).
 
-**The idea:** turn on your TV, open PlayHub, make sure your PC is on with **Sunshine** running, and start playing. No opening Moonlight, no typing IPs, no hunting for the game in a list.
+**The idea:** turn on your TV, open Arcade, make sure your PC is on with **Sunshine** running, and start playing. No opening Moonlight, no typing IPs, no hunting for the game in a list.
 
-![version](https://img.shields.io/badge/version-1.7.4-8b9bff) ![webOS](https://img.shields.io/badge/webOS-4.5%20(rooted)-555)
+![version](https://img.shields.io/badge/version-1.7.5-8b9bff) ![webOS](https://img.shields.io/badge/webOS-4.5%20(rooted)-555)
 
 ---
 
@@ -12,11 +12,11 @@
 
 **On the TV**
 - An Apple TV–style home screen with your PC games: big backgrounds, logos, descriptions, release year and original console (SNES, N64, PS2…).
-- **Pick a game → it starts on your PC and streams**, using Moonlight under the hood (PlayHub reuses Moonlight's pairing).
-- **Quit a game from the couch:** hold **SELECT + START** for 2 seconds. The game closes on the PC and you're back in PlayHub.
+- **Pick a game → it starts on your PC and streams**, using Moonlight under the hood (Arcade reuses Moonlight's pairing).
+- **Quit a game from the couch:** hold **SELECT + START** for 2 seconds. The game closes on the PC and you're back in Arcade.
 - **Steam button** at the top: opens Steam in **Big Picture mode**.
-- **PC off?** PlayHub tells you, and can wake it up with Wake-on-LAN.
-- **Controller-first:** navigate everything with a gamepad. **RT / LT** jump to the next / previous game. **Hold B** on the home screen to close PlayHub completely. The TV remote works too (only arrows, OK and Back, so your color buttons stay yours).
+- **PC off?** Arcade tells you, and can wake it up with Wake-on-LAN.
+- **Controller-first:** navigate everything with a gamepad. **RT / LT** jump to the next / previous game. **Hold B** on the home screen to close Arcade completely. The TV remote works too (only arrows, OK and Back, so your color buttons stay yours).
 - **Built-in Bluetooth panel** to pair and connect controllers. One controller is rock solid, two is fine. With three or more, the TV's Bluetooth may get flaky (Moonlight itself supports up to 4).
 - Each game has its own page with **Play**, **Remove from Continue playing** and **Hide**.
 
@@ -41,18 +41,18 @@
 ### 1. On the TV
 1. Open **Homebrew Channel** → **Settings** → **Add repository**.
 2. Enter: `https://gvancrue.github.io/playhub-tv/apps.json`
-3. Go back to the app list, find **PlayHub** and install it. Updates arrive the same way.
+3. Go back to the app list, find **Arcade** and install it. Updates arrive the same way.
 
-The first time you open it, PlayHub asks Homebrew Channel for root access for its background service (you'll just see the logo for a moment). Root is needed to read Moonlight's pairing, read controllers and use Bluetooth.
+The first time you open it, Arcade asks Homebrew Channel for root access for its background service (you'll just see the logo for a moment). Root is needed to read Moonlight's pairing, read controllers and use Bluetooth.
 
 ### 2. On the PC
 1. Download **[PlayHub-PC.zip](https://gvancrue.github.io/playhub-tv/PlayHub-PC.zip)** and unzip it anywhere (it's 5 small files: a `.bat`, a PowerShell script and the web page).
 2. Make sure Sunshine is running, then double-click **`Install.bat`**. Windows asks for administrator permission once, only so the TV can read your library over your home network. (Since it's a downloaded script, Windows SmartScreen may warn you: *More info → Run anyway*. It's all plain text, read it first if you like.)
 3. **"My library"** opens in your browser with a 3-step setup: your Sunshine login, an optional SteamGridDB key, and which games you want on the TV.
 
-That's it. From now on: **TV on → PlayHub → play.**
+That's it. From now on: **TV on → Arcade → play.**
 
-To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine; `PlayHub.ps1 -RemoveGames` removes the ones PlayHub added).
+To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine; `PlayHub.ps1 -RemoveGames` removes the ones it added).
 
 ## Recommendations
 
@@ -62,36 +62,32 @@ To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine;
 - **Want to wake the PC from the TV?** Enable Wake-on-LAN in your BIOS and network adapter, and keep the PC on a cable.
 - **Something's off?** On the TV go to **Controllers → Diagnostics**. It shows the whole picture, including the service log. A photo of that screen says almost everything.
 
-## Bluetooth for Old webOS (beta) · v0.3.5
+## Bluetooth for Old webOS (beta) · v0.3.6
 
-A separate, standalone app (it doesn't need PlayHub) for everything Bluetooth on old webOS TVs. Made on webOS 4.5. Install it from the same Homebrew Channel repository.
+A separate, standalone app (it doesn't need Arcade) for everything Bluetooth on old webOS TVs. Made on webOS 4.5. Install it from the same Homebrew Channel repository.
 
 **The idea: you never have to open it.** Turn on the TV, turn on your controller, play. Your speaker or headphones connect by themselves. The app is only there to pair something new or change a setting.
 
 **How to set it up**
-1. Install it from Homebrew Channel and **open it once** (or open PlayHub, which wakes it up too). From then on it starts by itself every time the TV turns on.
+1. Install it from Homebrew Channel and **open it once** (or open Arcade, which wakes it up too). From then on it starts by itself every time the TV turns on.
 2. Pair your controller and your speaker/headphones in the app (**Add a device**). It shows step-by-step pairing tips for Xbox, PlayStation, 8BitDo, Switch Pro and audio devices.
 3. That's it. Updates from Homebrew Channel apply by themselves too, no need to open the app again.
 
 **Every day**
-- **Controller:** turn it on (usually the Home / Guide button) and it reconnects to the TV. You'll see "*8BitDo Ultimate 2 Wireless connected*" over whatever you're watching, and it's ready for Moonlight, PlayHub, RetroArch… Also works for controllers on USB or their own 2.4 GHz receiver.
+- **Controller:** turn it on (usually the Home / Guide button) and it reconnects to the TV. You'll see "*8BitDo Ultimate 2 Wireless connected*" over whatever you're watching, and it's ready for Moonlight, Arcade, RetroArch… Also works for controllers on USB or their own 2.4 GHz receiver.
 - **Speaker / headphones:** your favorite ★ (the first one you connect becomes the favorite; you can change it) connects by itself when the TV turns on and (optionally) takes the TV sound. If it's off at that moment, it keeps trying for a while.
 - **Notifications** when anything Bluetooth connects or disconnects.
 
-**Your controller as a TV remote:** move around the TV menus, your launcher, Netflix, YouTube… with the D-pad or stick (A = OK, B = Back, Guide = Home; hold A for a long press, like YouTube's video menu). It steps aside by itself in Moonlight, PlayHub and RetroArch, which read the controller directly. It learns your LG remote's exact buttons by itself: just use the app once with the LG remote. You can turn it off in Settings.
+**Your controller as a TV remote:** move around the TV menus, your launcher, Netflix, YouTube… with the D-pad or stick (A = OK, B = Back, Guide = Home; hold A for a long press, like YouTube's video menu). It steps aside by itself in Moonlight, Arcade and RetroArch, which read the controller directly. It learns your LG remote's exact buttons by itself: just use the app once with the LG remote. You can turn it off in Settings.
 - **Use your own launcher** (like Hearth): in Settings → **Guide button opens**, pick any installed app, and the controller's Guide button opens it instead of LG's home screen. Optional: **Hold B to go home** (a quick press is still Back). If you also remap the LG remote's Home button with [LG Input Hook](https://github.com/Simon34545/lginputhook), both remotes take you to the same place.
 
 **Also**
 - **Replaces the old "Gamepads" app** ([webos-gamepad](https://github.com/Superd22/webos-gamepad)): it fixes controller permissions so Moonlight, RetroArch and other apps can read them, and cleans up stale controller entries at startup. You can uninstall Gamepads.
-- If you also use PlayHub, PlayHub reads your controller through it from the very first second.
+- If you also use Arcade, Arcade reads your controller through it from the very first second.
 - **Diagnostics** screen with its log, for when something doesn't connect.
 - Uninstalling it leaves nothing behind: the background program removes its own autostart and stops.
 
 It's a first version: speaker auto-connect and sound switching depend on your TV model.
-
-## Coming soon
-
-- A new name and look.
 
 ## Want to tweak it?
 

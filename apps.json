@@ -3,7 +3,7 @@
   "packages": [
     {
       "id": "com.playhub.tv",
-      "title": "PlayHub",
+      "title": "Arcade",
       "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/icon.png",
       "manifestUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/com.playhub.tv.manifest.json",
       "category": "game",
