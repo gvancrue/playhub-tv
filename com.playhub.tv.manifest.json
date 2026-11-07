@@ -8,6 +8,6 @@
   "sourceUrl": "https://github.com/gvancrue/playhub-tv",
   "rootRequired": true,
   "ipkUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/com.playhub.tv_1.7.1_all.ipk",
-  "ipkHash": { "sha256": "b1512225e21362ae5c509b3475b6e02b88c8d95e7f789c65e81c6c99ca8b50cb" },
-  "ipkSize": 118386
+  "ipkHash": { "sha256": "576f66b8c29d6042f414f4d41523c84eb5e0d8393d2c8b18f18872cf58a4087e" },
+  "ipkSize": 118384
 }

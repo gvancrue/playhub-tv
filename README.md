@@ -62,7 +62,7 @@ To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine;
 - **Want to wake the PC from the TV?** Enable Wake-on-LAN in your BIOS and network adapter, and keep the PC on a cable.
 - **Something's off?** On the TV go to **Controllers → Diagnostics**. It shows the whole picture, including the service log. A photo of that screen says almost everything.
 
-## Bluetooth for Old webOS (beta) · v0.2.1
+## Bluetooth for Old webOS (beta) · v0.3.0
 
 A separate, standalone app (it doesn't need PlayHub) for everything Bluetooth on old webOS TVs. Made on webOS 4.5. Install it from the same Homebrew Channel repository.
 
@@ -70,6 +70,7 @@ A separate, standalone app (it doesn't need PlayHub) for everything Bluetooth on
 - **Notifications over anything you're watching:** "8BitDo Ultimate 2 Wireless connected", "Bose QC45 disconnected"… also for controllers on USB or their own 2.4 GHz receiver.
 - **Favorite speaker ★:** reconnects by itself when the TV turns on, and (optionally) sends the TV sound to it.
 - **Runs in the background** and starts with the TV, so you don't need to open it.
+- **Your controller as a TV remote:** move around the TV menus, your launcher, Netflix, YouTube… with the D-pad or stick (A = OK, B = Back, Guide = Home). It steps aside by itself in Moonlight, PlayHub and RetroArch, which read the controller directly. If OK/Back/Home don't match, teach it your LG remote's buttons in Settings.
 - **Replaces the old "Gamepads" app** ([webos-gamepad](https://github.com/Superd22/webos-gamepad)): it fixes controller permissions so Moonlight, RetroArch and other apps can read them, and cleans up stale controller entries at startup. You can uninstall Gamepads.
 - If you also use PlayHub, PlayHub reads your controller through it from the very first second.
 - **Diagnostics** screen with its log, for when something doesn't connect.
@@ -78,7 +79,6 @@ It's a first version: speaker auto-connect and sound switching depend on your TV
 
 ## Coming soon
 
-- Using a controller as a full TV remote (home screen, Netflix, YouTube…).
 - A new name and look.
 
 ## Want to tweak it?
