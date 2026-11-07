@@ -66,14 +66,25 @@ To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine;
 
 A separate, standalone app (it doesn't need PlayHub) for everything Bluetooth on old webOS TVs. Made on webOS 4.5. Install it from the same Homebrew Channel repository.
 
-- **Your devices at a glance:** controllers, speakers & headphones, keyboards & mice, with their status. Pair new ones with step-by-step pairing tips for Xbox, PlayStation, 8BitDo, Switch Pro and audio devices.
-- **Notifications over anything you're watching:** "8BitDo Ultimate 2 Wireless connected", "Bose QC45 disconnected"… also for controllers on USB or their own 2.4 GHz receiver.
-- **Favorite speaker ★:** reconnects by itself when the TV turns on, and (optionally) sends the TV sound to it.
-- **Runs in the background** and starts with the TV, so you don't need to open it.
-- **Your controller as a TV remote:** move around the TV menus, your launcher, Netflix, YouTube… with the D-pad or stick (A = OK, B = Back, Guide = Home; hold A for a long press, like YouTube's video menu). It steps aside by itself in Moonlight, PlayHub and RetroArch, which read the controller directly. It learns your LG remote's exact buttons by itself: just use the app once with the LG remote.
+**The idea: you never have to open it.** Turn on the TV, turn on your controller, play. Your speaker or headphones connect by themselves. The app is only there to pair something new or change a setting.
+
+**How to set it up**
+1. Install it from Homebrew Channel and **open it once** (or open PlayHub, which wakes it up too). From then on it starts by itself every time the TV turns on.
+2. Pair your controller and your speaker/headphones in the app (**Add a device**). It shows step-by-step pairing tips for Xbox, PlayStation, 8BitDo, Switch Pro and audio devices.
+3. That's it. Updates from Homebrew Channel apply by themselves too, no need to open the app again.
+
+**Every day**
+- **Controller:** turn it on (usually the Home / Guide button) and it reconnects to the TV. You'll see "*8BitDo Ultimate 2 Wireless connected*" over whatever you're watching, and it's ready for Moonlight, PlayHub, RetroArch… Also works for controllers on USB or their own 2.4 GHz receiver.
+- **Speaker / headphones:** your favorite ★ (the first one you connect becomes the favorite; you can change it) connects by itself when the TV turns on and (optionally) takes the TV sound. If it's off at that moment, it keeps trying for a while.
+- **Notifications** when anything Bluetooth connects or disconnects.
+
+**Your controller as a TV remote:** move around the TV menus, your launcher, Netflix, YouTube… with the D-pad or stick (A = OK, B = Back, Guide = Home; hold A for a long press, like YouTube's video menu). It steps aside by itself in Moonlight, PlayHub and RetroArch, which read the controller directly. It learns your LG remote's exact buttons by itself: just use the app once with the LG remote. You can turn it off in Settings.
+
+**Also**
 - **Replaces the old "Gamepads" app** ([webos-gamepad](https://github.com/Superd22/webos-gamepad)): it fixes controller permissions so Moonlight, RetroArch and other apps can read them, and cleans up stale controller entries at startup. You can uninstall Gamepads.
 - If you also use PlayHub, PlayHub reads your controller through it from the very first second.
 - **Diagnostics** screen with its log, for when something doesn't connect.
+- Uninstalling it leaves nothing behind: the background program removes its own autostart and stops.
 
 It's a first version: speaker auto-connect and sound switching depend on your TV model.
 
