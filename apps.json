@@ -12,13 +12,13 @@
       "rootRequired": true
     },
     {
-      "id": "com.playhub.connect",
-      "title": "PlayHub Connect",
-      "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/connect-icon.png",
-      "manifestUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/com.playhub.connect.manifest.json",
+      "id": "bluetooth4webos",
+      "title": "Bluetooth for Old webOS",
+      "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/bluetooth4webos-icon.png",
+      "manifestUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/bluetooth4webos.manifest.json",
       "category": "utilities",
       "pool": "main",
-      "shortDescription": "Bluetooth controllers and speakers, with notifications. Works in the background.",
+      "shortDescription": "Controllers, speakers and headphones for old webOS, with notifications. Works in the background.",
       "rootRequired": true
     }
   ]

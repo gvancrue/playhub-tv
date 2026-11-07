@@ -1,0 +1,13 @@
+{
+  "id": "bluetooth4webos",
+  "version": "0.2.0",
+  "type": "web",
+  "title": "Bluetooth for Old webOS",
+  "appDescription": "Bluetooth controllers, speakers and headphones for old webOS TVs (made on webOS 4.5), with notifications when they connect. Runs in the background, reconnects your favorite speaker when the TV turns on, and keeps controllers readable by Moonlight and RetroArch (no need for the old Gamepads app).",
+  "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/bluetooth4webos-icon.png",
+  "sourceUrl": "https://github.com/gvancrue/playhub-tv",
+  "rootRequired": true,
+  "ipkUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/bluetooth4webos_0.2.0_all.ipk",
+  "ipkHash": { "sha256": "7fb6936c7f1de0e81f6f0e7e86d5bf2d0f6047b4d806eb85c17093917b7ce22d" },
+  "ipkSize": 75778
+}
