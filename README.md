@@ -6,4 +6,4 @@ To install PlayHub on your rooted LG TV:
 2. Enter: `https://gvancrue.github.io/playhub-tv/apps.json`
 3. Go back to the app list, find **PlayHub** and install it.
 
-Current version: **1.5.1**
+Current version: **1.5.2**
