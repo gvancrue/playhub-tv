@@ -1,9 +1,9 @@
-# PlayHub para webOS — repositorio de Homebrew Channel
+# PlayHub for webOS — Homebrew Channel repository
 
-Para instalar PlayHub en tu TV LG rooteado:
+To install PlayHub on your rooted LG TV:
 
-1. Abre **Homebrew Channel** → **Settings** → **Add repository**.
-2. Escribe: `https://gvancrue.github.io/playhub-tv/apps.json`
-3. Vuelve a la lista de apps, busca **PlayHub** e instálalo.
+1. Open **Homebrew Channel** → **Settings** → **Add repository**.
+2. Enter: `https://gvancrue.github.io/playhub-tv/apps.json`
+3. Go back to the app list, find **PlayHub** and install it.
 
-Versión actual: **1.5.0**
+Current version: **1.5.1**

@@ -8,7 +8,7 @@
       "manifestUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/com.playhub.tv.manifest.json",
       "category": "game",
       "pool": "main",
-      "shortDescription": "Tus juegos del PC en el TV, estilo Apple TV. Usa Sunshine + Moonlight.",
+      "shortDescription": "Your PC games on the TV, Apple TV style. Uses Sunshine + Moonlight.",
       "rootRequired": true
     }
   ]
