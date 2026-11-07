@@ -1,13 +1,13 @@
 {
   "id": "com.playhub.tv",
-  "version": "1.6.5",
+  "version": "1.6.6",
   "type": "web",
   "title": "PlayHub",
   "appDescription": "Your PC game library on the TV, Apple TV style. Pick a game and it streams from your PC with Sunshine and Moonlight.",
   "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/icon.png",
   "sourceUrl": "https://github.com/gvancrue/playhub-tv",
   "rootRequired": true,
-  "ipkUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/com.playhub.tv_1.6.5_all.ipk",
-  "ipkHash": { "sha256": "e74cdaed88703770c37d7fef7de78e3a53a8d4e4f3414d58bcf1f65885a0cd16" },
-  "ipkSize": 116916
+  "ipkUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/com.playhub.tv_1.6.6_all.ipk",
+  "ipkHash": { "sha256": "57c283837fe58580152994866e508c4a622678319c75dbfeaa324c44cbaac052" },
+  "ipkSize": 116950
 }
