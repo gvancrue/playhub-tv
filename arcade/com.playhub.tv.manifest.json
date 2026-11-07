@@ -1,0 +1,13 @@
+{
+  "id": "com.playhub.tv",
+  "version": "1.7.4",
+  "type": "web",
+  "title": "Arcade",
+  "appDescription": "Arcade: your PC game library on the TV. A personal build of PlayHub.",
+  "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/arcade/icon.png",
+  "sourceUrl": "https://github.com/gvancrue/playhub-tv",
+  "rootRequired": true,
+  "ipkUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/arcade/com.playhub.tv_1.7.4_all.ipk",
+  "ipkHash": { "sha256": "41ee3fac449f656afa546a9310a32d8de554b61298f4e9bca4a265e4e06cb12d" },
+  "ipkSize": 143890
+}

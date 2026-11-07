@@ -1,0 +1,25 @@
+{
+  "paging": { "page": 1, "count": 2, "maxPage": 1, "itemsTotal": 2 },
+  "packages": [
+    {
+      "id": "com.playhub.tv",
+      "title": "Arcade",
+      "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/arcade/icon.png",
+      "manifestUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/arcade/com.playhub.tv.manifest.json",
+      "category": "game",
+      "pool": "main",
+      "shortDescription": "Your PC games on the TV. Uses Sunshine + Moonlight.",
+      "rootRequired": true
+    },
+    {
+      "id": "bluetooth4webos",
+      "title": "Bluetooth for Old webOS",
+      "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/bluetooth4webos-icon.png",
+      "manifestUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/bluetooth4webos.manifest.json",
+      "category": "utilities",
+      "pool": "main",
+      "shortDescription": "Controllers, speakers and headphones for old webOS, with notifications. Works in the background.",
+      "rootRequired": true
+    }
+  ]
+}
