@@ -8,6 +8,6 @@
   "sourceUrl": "https://github.com/gvancrue/playhub-tv",
   "rootRequired": true,
   "ipkUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/bluetooth4webos_0.3.6_all.ipk",
-  "ipkHash": { "sha256": "b77553d67b0a6295b0377210ff4b914c98c1a6ee5027ba891ee9af7a4fba1925" },
-  "ipkSize": 121520
+  "ipkHash": { "sha256": "9fcb7a8b980783d3351865855103fc7f35e1cf77d5a58e5c347fc12c6eba2b75" },
+  "ipkSize": 121512
 }
