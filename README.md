@@ -4,7 +4,7 @@
 
 **The idea:** turn on your TV, open PlayHub, make sure your PC is on with **Sunshine** running, and start playing. No opening Moonlight, no typing IPs, no hunting for the game in a list.
 
-![version](https://img.shields.io/badge/version-1.6.9-8b9bff) ![webOS](https://img.shields.io/badge/webOS-4.5%20(rooted)-555)
+![version](https://img.shields.io/badge/version-1.7.0-8b9bff) ![webOS](https://img.shields.io/badge/webOS-4.5%20(rooted)-555)
 
 ---
 
@@ -62,9 +62,21 @@ To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine;
 - **Want to wake the PC from the TV?** Enable Wake-on-LAN in your BIOS and network adapter, and keep the PC on a cable.
 - **Something's off?** On the TV go to **Controllers → Diagnostics**. It shows the whole picture, including the service log. A photo of that screen says almost everything.
 
+## PlayHub Connect (beta) · v0.1.0
+
+A companion app for everything Bluetooth on the TV, in the same style as PlayHub. Install it from the same Homebrew Channel repository.
+
+- **Your devices at a glance:** controllers, speakers & headphones, keyboards & mice, with their status. Pair new ones with step-by-step pairing tips for Xbox, PlayStation, 8BitDo, Switch Pro and audio devices.
+- **Notifications over anything you're watching:** "8BitDo Ultimate 2 Wireless connected", "Bose QC45 disconnected"… also for controllers on USB or their own 2.4 GHz receiver.
+- **Favorite speaker ★:** reconnects by itself when the TV turns on, and (optionally) sends the TV sound to it.
+- **Runs in the background** and starts with the TV, so you don't need to open it. PlayHub uses it to read your controller from the very first second.
+- **Diagnostics** screen with its log, for when something doesn't connect.
+
+It's a first version: the speaker auto-connect and sound switching depend on your TV model, so tell me how it goes.
+
 ## Coming soon
 
-- **A Bluetooth companion app** that runs all the time, not just inside PlayHub: auto-reconnects your controllers, connects your soundbar or headphones, shows a small "connected" notice over anything you're watching, and lets a controller drive the whole TV like a remote. It's cooking. 🍳
+- Using a controller as a full TV remote (home screen, Netflix, YouTube…).
 - A new name and look.
 
 ## Want to tweak it?

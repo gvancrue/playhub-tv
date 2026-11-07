@@ -1,5 +1,5 @@
 {
-  "paging": { "page": 1, "count": 1, "maxPage": 1, "itemsTotal": 1 },
+  "paging": { "page": 1, "count": 2, "maxPage": 1, "itemsTotal": 2 },
   "packages": [
     {
       "id": "com.playhub.tv",
@@ -9,6 +9,16 @@
       "category": "game",
       "pool": "main",
       "shortDescription": "Your PC games on the TV, Apple TV style. Uses Sunshine + Moonlight.",
+      "rootRequired": true
+    },
+    {
+      "id": "com.playhub.connect",
+      "title": "PlayHub Connect",
+      "iconUri": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/connect-icon.png",
+      "manifestUrl": "https://raw.githubusercontent.com/gvancrue/playhub-tv/main/com.playhub.connect.manifest.json",
+      "category": "utilities",
+      "pool": "main",
+      "shortDescription": "Bluetooth controllers and speakers, with notifications. Works in the background.",
       "rootRequired": true
     }
   ]
