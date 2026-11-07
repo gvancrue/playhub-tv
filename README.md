@@ -4,7 +4,7 @@
 
 **The idea:** turn on your TV, open PlayHub, make sure your PC is on with **Sunshine** running, and start playing. No opening Moonlight, no typing IPs, no hunting for the game in a list.
 
-![version](https://img.shields.io/badge/version-1.6.8-8b9bff) ![webOS](https://img.shields.io/badge/webOS-4.5%20(rooted)-555)
+![version](https://img.shields.io/badge/version-1.6.9-8b9bff) ![webOS](https://img.shields.io/badge/webOS-4.5%20(rooted)-555)
 
 ---
 
