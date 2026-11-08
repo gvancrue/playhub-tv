@@ -62,7 +62,7 @@ To uninstall from the PC: `PlayHub.ps1 -Uninstall` (your games stay in Sunshine;
 - **Want to wake the PC from the TV?** Enable Wake-on-LAN in your BIOS and network adapter, and keep the PC on a cable.
 - **Something's off?** On the TV go to **Controllers → Diagnostics**. It shows the whole picture, including the service log. A photo of that screen says almost everything.
 
-## Bluetooth for Old webOS (beta) · v0.3.7
+## Bluetooth for Old webOS (beta) · v0.3.8
 
 A separate, standalone app (it doesn't need Arcade) for everything Bluetooth on old webOS TVs. Made on webOS 4.5. Install it from the same Homebrew Channel repository.
 
@@ -75,7 +75,7 @@ A separate, standalone app (it doesn't need Arcade) for everything Bluetooth on 
 
 **Every day**
 - **Controller:** turn it on (usually the Home / Guide button) and it reconnects to the TV. You'll see "*8BitDo Ultimate 2 Wireless connected*" over whatever you're watching, and it's ready for Moonlight, Arcade, RetroArch… Also works for controllers on USB or their own 2.4 GHz receiver.
-- **Speaker / headphones:** your favorite ★ (the first one you connect becomes the favorite; you can change it) connects by itself when the TV turns on and (optionally) takes the TV sound. If it's off at that moment, it keeps trying for a while.
+- **Speaker / headphones:** your favorite ★ (the first one you connect becomes the favorite; you can change it) connects by itself right when the TV turns on and takes the TV sound **without webOS's "switch sound output?" prompt**. Speakers without ★ work as usual (webOS asks). If the favorite is off at that moment, it keeps trying for a few minutes. *(The no-prompt trick uses `com.webos.service.btaudiosrc`, found by the webosbrew community; if your TV doesn't have it, the app falls back to the standard way.)*
 - **Notifications** when anything Bluetooth connects or disconnects.
 
 **Your controller as a TV remote:** move around the TV menus, your launcher, Netflix, YouTube… with the D-pad or stick (A = OK, B = Back, Guide = Home; hold A for a long press, like YouTube's video menu). It steps aside by itself in Moonlight, Arcade and RetroArch, which read the controller directly. It learns your LG remote's exact buttons by itself: just use the app once with the LG remote. You can turn it off in Settings.
